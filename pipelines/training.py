@@ -37,6 +37,7 @@ configure_logging()
         "tensorflow",
         "boto3",
         "mlflow",
+        "jax",
     ),
 )
 class Training(FlowSpec, DatasetMixin):
